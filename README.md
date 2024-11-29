@@ -1,5 +1,7 @@
 # Advanced tool tips
 ## Modular tool tips framework for  2d games 
+<img src="./4 Readme/Main screenshot.png" width="50%" alt="ui">
+
 Regardless if you need:
 - simple, plug and play tool tips system 
 Or
@@ -8,7 +10,10 @@ You are in the right place!
 ## Features
 - Simple to use design
 - Modern and highly customizable UI
-- Customizable animations ![Test](./4%20Readme/Animation%20gif.mp4)
+- Customizable animations
+
+https://github.com/user-attachments/assets/e6f1e2c1-8b92-4a41-9561-a403c0292afd
+
 - Easy to modify and understand code made with modularity in mind
 - Examples
 - [Documentation](./Assets/LeaveMyAlpaca/Advanced%20tooltips/Documantation-%20advanced%20tooltips.pdf)
