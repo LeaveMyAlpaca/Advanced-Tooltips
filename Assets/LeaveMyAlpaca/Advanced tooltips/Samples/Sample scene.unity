@@ -616,6 +616,7 @@ GameObject:
   - component: {fileID: 525769447}
   - component: {fileID: 525769449}
   - component: {fileID: 525769448}
+  - component: {fileID: 525769450}
   m_Layer: 5
   m_Name: Image
   m_TagString: Untagged
@@ -680,6 +681,24 @@ CanvasRenderer:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 525769446}
   m_CullTransparentMesh: 1
+--- !u!114 &525769450
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 525769446}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 114c57e786d74f4439a135cb2b9adb15, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  icon: {fileID: 0}
+  colorOfIcon: {r: 1, g: 1, b: 1, a: 1}
+  colorOfTheText: {r: 1, g: 1, b: 1, a: 1}
+  text: Test
+  fontSize: 20
+  font: {fileID: 0}
 --- !u!1 &797720477
 GameObject:
   m_ObjectHideFlags: 0
@@ -1522,6 +1541,7 @@ GameObject:
   - component: {fileID: 1441799358}
   - component: {fileID: 1441799357}
   - component: {fileID: 1441799359}
+  - component: {fileID: 1441799360}
   m_Layer: 5
   m_Name: Iron
   m_TagString: Untagged
@@ -1601,6 +1621,24 @@ MonoBehaviour:
   materialType: {fileID: 11400000, guid: 7424f20494cec2c4080a37f447915de8, type: 2}
   nameSize: 25
   sizeOfRestOfTheText: 20
+  font: {fileID: 0}
+--- !u!114 &1441799360
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1441799355}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 114c57e786d74f4439a135cb2b9adb15, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  icon: {fileID: 0}
+  colorOfIcon: {r: 1, g: 1, b: 1, a: 1}
+  colorOfTheText: {r: 1, g: 1, b: 1, a: 1}
+  text: Test
+  fontSize: 20
   font: {fileID: 0}
 --- !u!1 &1536250355
 GameObject:
