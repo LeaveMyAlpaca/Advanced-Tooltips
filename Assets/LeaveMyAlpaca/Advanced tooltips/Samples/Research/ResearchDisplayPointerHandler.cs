@@ -6,7 +6,7 @@ namespace AdvancedTooltips.Samples
     using UnityEngine;
     using UnityEngine.EventSystems;
     [AddComponentMenu("AdvancedTooltips/Samples/Research")]
-    public class ResearchDisplay : MonoBehaviour, IPointerEnterHandler, IPointerExitHandler
+    public class ResearchDisplayPointerHandler : MonoBehaviour, IPointerEnterHandler, IPointerExitHandler
     {
         public List<TooltipsStatic.MaterialsDisplay> costs = new();
         public List<Building> unlockedBuildings = new();

@@ -5,7 +5,7 @@ namespace AdvancedTooltips.Samples
     using UnityEngine;
     using UnityEngine.EventSystems;
     [AddComponentMenu("AdvancedTooltips/Samples/Materials Status")]
-    public class MaterialsStatus : MonoBehaviour, IPointerEnterHandler, IPointerExitHandler
+    public class MaterialsStatusPointerHandler : MonoBehaviour, IPointerEnterHandler, IPointerExitHandler
     {
         [SerializeField] private MaterialType materialType;
 

@@ -5,7 +5,7 @@ namespace AdvancedTooltips.Samples
     using UnityEngine;
     using UnityEngine.EventSystems;
     [AddComponentMenu("AdvancedTooltips/Samples/Building")]
-    public class BuildingDisplay : MonoBehaviour, IPointerEnterHandler, IPointerExitHandler
+    public class BuildingDisplayPointerHandler : MonoBehaviour, IPointerEnterHandler, IPointerExitHandler
     {
 
         public Building building;
