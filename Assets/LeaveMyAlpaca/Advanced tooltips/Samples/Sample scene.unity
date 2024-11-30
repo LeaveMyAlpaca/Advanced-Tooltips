@@ -886,6 +886,8 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   materialType: {fileID: 11400000, guid: 193ca430744135b4bbd82e84d59602fc, type: 2}
+  backgroundSprite: {fileID: 4240188513560124558, guid: 19b7fee3f5ffe4e469978472ea661cdf, type: 3}
+  backgroundColor: {r: 1, g: 1, b: 1, a: 1}
   nameSize: 25
   sizeOfRestOfTheText: 20
   font: {fileID: 0}
@@ -1639,6 +1641,8 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   materialType: {fileID: 11400000, guid: 7424f20494cec2c4080a37f447915de8, type: 2}
+  backgroundSprite: {fileID: 4240188513560124558, guid: 19b7fee3f5ffe4e469978472ea661cdf, type: 3}
+  backgroundColor: {r: 1, g: 1, b: 1, a: 1}
   nameSize: 25
   sizeOfRestOfTheText: 20
   font: {fileID: 0}
@@ -2223,6 +2227,8 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   materialType: {fileID: 11400000, guid: fe866cd9ae5c13b4f8fb41dd2c536641, type: 2}
+  backgroundSprite: {fileID: 4240188513560124558, guid: 19b7fee3f5ffe4e469978472ea661cdf, type: 3}
+  backgroundColor: {r: 1, g: 1, b: 1, a: 1}
   nameSize: 25
   sizeOfRestOfTheText: 20
   font: {fileID: 0}

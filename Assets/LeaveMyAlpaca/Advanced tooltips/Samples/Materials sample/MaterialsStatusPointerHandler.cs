@@ -9,6 +9,9 @@ namespace AdvancedTooltips.Samples
     {
         [SerializeField] private MaterialType materialType;
 
+        [SerializeField] private Sprite backgroundSprite;
+        [SerializeField] private Color backgroundColor;
+
         [SerializeField] private float nameSize = 25;
         [SerializeField] private float sizeOfRestOfTheText = 20;
         [Tooltip("if empty will be using default font"), SerializeField] private TMP_FontAsset font;
@@ -16,6 +19,8 @@ namespace AdvancedTooltips.Samples
         public void OnPointerEnter(PointerEventData eventData)
         {
             TooltipsStatic.ShowNew();
+            TooltipsStatic.CustomizeBackground(backgroundSprite, backgroundColor);
+
 
             TooltipsStatic.JustText(materialType.name, Color.white, font, nameSize);
 
