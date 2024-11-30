@@ -5,8 +5,9 @@
 Regardless if you need:
 - simple, plug and play tool tips system 
 Or
-- modular base for advanced game you are in right place!
-You are in the right place!
+- modular base for advanced game
+
+#### You are in the right place!
 ## Features
 - Simple to use design
 - Modern and highly customizable UI
