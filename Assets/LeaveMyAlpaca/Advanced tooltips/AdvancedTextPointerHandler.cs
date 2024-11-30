@@ -11,6 +11,7 @@ namespace AdvancedTooltips.Samples
         [SerializeField] private Color backgroundColor;
 
         [SerializeField] private Sprite icon;
+        [SerializeField] private float iconScale = 1;
         [SerializeField] private Color colorOfIcon = Color.white;
         [SerializeField] private Color colorOfTheText = Color.white;
 
@@ -22,7 +23,7 @@ namespace AdvancedTooltips.Samples
         {
             TooltipsStatic.ShowNew();
 
-            TooltipsStatic.JustText(icon, colorOfIcon, text, colorOfTheText, customLayout: /* use default one */ null, font, fontSize);
+            TooltipsStatic.JustText(icon, colorOfIcon, text, colorOfTheText, iconScale: iconScale, customLayout: /* use default one */ null, font, fontSize);
             TooltipsStatic.CustomizeBackground(backgroundSprite, backgroundColor);
         }
 

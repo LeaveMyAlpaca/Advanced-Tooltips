@@ -65,6 +65,21 @@ namespace AdvancedTooltips.Core
 
 
         }
+        public static void JustText(Sprite icon, Color colorOfIcon, string text, Color colorOfTheText, float iconScale, Transform customLayout = null, TMP_FontAsset font = null, float fontSize = 20)
+        {
+
+
+            JustTextHandler script = instantiateHandler.InstantiateJustText(customLayout);
+            script.icon.sprite = icon;
+            script.icon.color = colorOfIcon;
+
+            script.text.font = font == null ? referenceHolder.defaultFont : font;
+            script.text.text = text;
+            script.text.color = colorOfTheText;
+            script.text.fontSize = fontSize;
+            script.icon.transform.localScale = Vector3.one * iconScale;
+
+        }
         public static void JustText(string text, Color colorOfTheText, TMP_FontAsset font = null, float fontSize = 20)
         {
             JustText(icon: null, new(0, 0, 0, 0), text, colorOfTheText, font: font, fontSize: fontSize);
