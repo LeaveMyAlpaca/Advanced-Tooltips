@@ -24,7 +24,7 @@ namespace AdvancedTooltips.Core
 
         public JustTextHandler InstantiateJustText(Transform customLayout = null)
         {
-            var gameObject = Instantiate(referenceHolder.JustTextPrefab, customLayout == null ? referenceHolder.layout : customLayout);
+            var gameObject = Instantiate(referenceHolder.JustTextPrefab, customLayout == null ? referenceHolder.layout.transform : customLayout);
             referenceHolder.oldPrefabs.Add(gameObject);
 
             return gameObject.GetComponent<JustTextHandler>();
@@ -32,7 +32,7 @@ namespace AdvancedTooltips.Core
 
         public BuildingDisplayHandler InstantiateBuildingDisplay(Transform customLayout = null)
         {
-            var gameObject = Instantiate(referenceHolder.buildingPrefab, customLayout == null ? referenceHolder.layout : customLayout);
+            var gameObject = Instantiate(referenceHolder.buildingPrefab, customLayout == null ? referenceHolder.layout.transform : customLayout);
             referenceHolder.oldPrefabs.Add(gameObject);
 
             return gameObject.GetComponent<BuildingDisplayHandler>();

@@ -6,6 +6,7 @@ namespace AdvancedTooltips.Core
     using AdvancedTooltips.ContentTypesHandlers;
     using TMPro;
     using UnityEngine;
+    using UnityEngine.UI;
 
     public static class TooltipsStatic
     {
@@ -28,6 +29,7 @@ namespace AdvancedTooltips.Core
             ClearOldPrefabs();
             ShowUI();
             ReturnBackgroundToDefault();
+            referenceHolder.layout.padding = referenceHolder.defaultPadding;
         }
         public static void ReturnBackgroundToDefault()
         {

@@ -15,6 +15,8 @@ namespace AdvancedTooltips.Samples
         [SerializeField] private Color colorOfIcon = Color.white;
         [SerializeField] private Color colorOfTheText = Color.white;
 
+        public RectOffset padding;
+
         [SerializeField] private string text = "Test";
         [SerializeField] private float fontSize = 20;
         [Tooltip("if empty will be using default font"), SerializeField] private TMP_FontAsset font;

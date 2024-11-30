@@ -326,12 +326,19 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   tooltipDelay: 0.3
-  layout: {fileID: 8134198314058942031}
+  layout: {fileID: 2411311111833025073}
   oldPrefabs: []
   JustTextPrefab: {fileID: 7984777672620914767, guid: 52a9648b70a20bb49bf2585c564ad505, type: 3}
   defaultFont: {fileID: 11400000, guid: 8f586378b4e144a9851e7b34d9b748ee, type: 2}
-  background: {fileID: 2673615184131704098}
   buildingPrefab: {fileID: 7984777672620914767, guid: e93040ad89ec9474197f992936c9c492, type: 3}
+  background: {fileID: 2673615184131704098}
+  defaultBackgroundSprite: {fileID: 0}
+  defaultBackgroundColor: {r: 0, g: 0, b: 0, a: 0}
+  defaultPadding:
+    m_Left: 6
+    m_Right: 6
+    m_Top: 6
+    m_Bottom: 6
 --- !u!114 &7139141315513702792
 MonoBehaviour:
   m_ObjectHideFlags: 0

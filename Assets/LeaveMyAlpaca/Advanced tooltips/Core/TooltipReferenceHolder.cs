@@ -29,7 +29,7 @@ namespace AdvancedTooltips.Core
         /// <summary>
         /// this is where you instantiate all of the prefabs
         /// </summary>
-        public Transform layout;
+        public VerticalLayoutGroup layout;
         [HideInInspector] public List<GameObject> oldPrefabs = new();
         /// <summary>
         ///  has just text and image
@@ -43,7 +43,7 @@ namespace AdvancedTooltips.Core
         public Image background;
         public Sprite defaultBackgroundSprite;
         public Color defaultBackgroundColor;
-
+        public RectOffset defaultPadding;
 
 
 
