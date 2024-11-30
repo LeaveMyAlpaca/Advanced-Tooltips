@@ -15,8 +15,7 @@ namespace AdvancedTooltips.Samples
 
         public void OnPointerEnter(PointerEventData eventData)
         {
-            TooltipsStatic.ClearOldPrefabs();
-            TooltipsStatic.ShowUI();
+            TooltipsStatic.ShowNew();
 
             TooltipsStatic.JustText(materialType.name, Color.white, font, nameSize);
 

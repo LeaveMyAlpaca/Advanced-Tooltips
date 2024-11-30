@@ -16,8 +16,7 @@ namespace AdvancedTooltips.Samples
         {
             if (building == null)
                 return;
-            TooltipsStatic.ClearOldPrefabs();
-            TooltipsStatic.ShowUI();
+            TooltipsStatic.ShowNew();
 
 
             TooltipsStatic.BuildingDisplay(building, customLayout: /* use default one */ null, font, fontSize: fontSize, nameSize: fontSize + 5);

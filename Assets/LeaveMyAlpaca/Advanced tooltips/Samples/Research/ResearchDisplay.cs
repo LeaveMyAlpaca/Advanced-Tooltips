@@ -18,8 +18,7 @@ namespace AdvancedTooltips.Samples
 
         public void OnPointerEnter(PointerEventData eventData)
         {
-            TooltipsStatic.ClearOldPrefabs();
-            TooltipsStatic.ShowUI();
+            TooltipsStatic.ShowNew();
 
             if (costs.Count != 0)
             {
