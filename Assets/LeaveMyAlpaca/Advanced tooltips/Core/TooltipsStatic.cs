@@ -39,6 +39,13 @@ namespace AdvancedTooltips.Core
         {
             referenceHolder.ClearOldPrefabs();
         }
+        public static void CustomizeBackground(Sprite sprite, Color color)
+        {
+            referenceHolder.background.sprite = sprite;
+            referenceHolder.background.color = color;
+        }
+
+
         #region  just text
         /// <summary>
         ///  if font == null -> will use default font
