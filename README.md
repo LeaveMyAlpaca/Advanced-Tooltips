@@ -15,7 +15,7 @@ You are in the right place!
 https://github.com/user-attachments/assets/e6f1e2c1-8b92-4a41-9561-a403c0292afd
 
 - Customizable backgrounds
-<img src="./4 Readme/Custom bacground .png" width="50%" alt="ui">
+<img src="./4 Readme/Custom bacground .png" width="30%" alt="ui">
 
 
 - Easy to modify and understand code made with modularity in mind
