@@ -27,6 +27,13 @@ namespace AdvancedTooltips.Core
         {
             ClearOldPrefabs();
             ShowUI();
+            ReturnBackgroundToDefault();
+        }
+        public static void ReturnBackgroundToDefault()
+        {
+            referenceHolder.background.sprite = referenceHolder.defaultBackgroundSprite;
+            referenceHolder.background.color = referenceHolder.defaultBackgroundColor;
+
         }
         public static void ClearOldPrefabs()
         {

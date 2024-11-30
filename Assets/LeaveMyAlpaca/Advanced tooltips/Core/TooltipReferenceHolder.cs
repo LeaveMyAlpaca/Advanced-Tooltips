@@ -36,16 +36,18 @@ namespace AdvancedTooltips.Core
         /// </summary>
         public GameObject JustTextPrefab;
         public TMP_FontAsset defaultFont;
+
+        public GameObject buildingPrefab;
+
+        [Header("Background")]
         public Image background;
-
-
+        public Sprite defaultBackgroundSprite;
+        public Color defaultBackgroundColor;
 
 
 
 
         bool turnOn = true;
-        public GameObject buildingPrefab;
-
         public void ShowUI()
         {
             Invoke(nameof(TurnOn), tooltipDelay);
