@@ -1,22 +1,21 @@
-# Advanced tool tips
-## Modular tool tips framework for 2d games made for unity
-<img src="./4 Readme/Main screenshot.png" width="50%" alt="ui">
-
-Regardless if you need:
+<h1 align="center"> Advanced tool tips
+<h2 align="center"> Modular tool tips framework for 2d games made for unity
+<img src="./4 Readme/Banner.png" width="50%" alt="ui" align="centre"> 
+  
+#### Regardless if you need: 
 - simple, plug and play tool tips system 
 Or
 - modular base for advanced game
 
-#### You are in the right place!
+<b>You are in the right place!
 ## Features
 - Simple to use design
+<img src="./4 Readme/Show case 1.png" width="50%" alt="ui" >
+
 - Modern and highly customizable UI
 - Customizable animations
-
-https://github.com/user-attachments/assets/e6f1e2c1-8b92-4a41-9561-a403c0292afd
-
 - Customizable backgrounds
-<img src="./4 Readme/Custom bacground .png" width="30%" alt="ui">
+<img src="./4 Readme/Show case 2.png" width="50%" alt="ui">
 
 
 - Easy to modify and understand code made with modularity in mind
