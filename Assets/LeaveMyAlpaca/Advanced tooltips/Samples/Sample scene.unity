@@ -693,12 +693,12 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 114c57e786d74f4439a135cb2b9adb15, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  icon: {fileID: 0}
+  icon: {fileID: 21300000, guid: af97383387f74534bbe11897b8e9976a, type: 3}
   colorOfIcon: {r: 1, g: 1, b: 1, a: 1}
   colorOfTheText: {r: 1, g: 1, b: 1, a: 1}
   text: Test
   fontSize: 20
-  font: {fileID: 0}
+  font: {fileID: 11400000, guid: 8f586378b4e144a9851e7b34d9b748ee, type: 2}
 --- !u!1 &797720477
 GameObject:
   m_ObjectHideFlags: 0
@@ -855,7 +855,7 @@ MonoBehaviour:
   m_OnCullStateChanged:
     m_PersistentCalls:
       m_Calls: []
-  m_Sprite: {fileID: -2067898546876541913, guid: 299be6b5cbb10af4d80ff692dcdf207c, type: 3}
+  m_Sprite: {fileID: 21300000, guid: e48dbf99e03806147982d074b2bc9449, type: 3}
   m_Type: 0
   m_PreserveAspect: 0
   m_FillCenter: 1
@@ -886,7 +886,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   materialType: {fileID: 11400000, guid: 193ca430744135b4bbd82e84d59602fc, type: 2}
-  backgroundSprite: {fileID: 4240188513560124558, guid: 19b7fee3f5ffe4e469978472ea661cdf, type: 3}
+  backgroundSprite: {fileID: 21300000, guid: f3428143b804bd047ab4ee904063deb0, type: 3}
   backgroundColor: {r: 1, g: 1, b: 1, a: 1}
   nameSize: 25
   sizeOfRestOfTheText: 20
@@ -926,6 +926,10 @@ PrefabInstance:
     - target: {fileID: 2181046411215254580, guid: cf4ea186d6b188b4f917afa3e084053c, type: 3}
       propertyPath: m_Name
       value: Tooltips prefab
+      objectReference: {fileID: 0}
+    - target: {fileID: 2673615184131704098, guid: cf4ea186d6b188b4f917afa3e084053c, type: 3}
+      propertyPath: m_PixelsPerUnitMultiplier
+      value: 10
       objectReference: {fileID: 0}
     - target: {fileID: 6274787354005272579, guid: cf4ea186d6b188b4f917afa3e084053c, type: 3}
       propertyPath: m_Pivot.x
@@ -1563,7 +1567,6 @@ GameObject:
   - component: {fileID: 1441799358}
   - component: {fileID: 1441799357}
   - component: {fileID: 1441799359}
-  - component: {fileID: 1441799360}
   m_Layer: 5
   m_Name: Iron
   m_TagString: Untagged
@@ -1641,28 +1644,10 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   materialType: {fileID: 11400000, guid: 7424f20494cec2c4080a37f447915de8, type: 2}
-  backgroundSprite: {fileID: 4240188513560124558, guid: 19b7fee3f5ffe4e469978472ea661cdf, type: 3}
+  backgroundSprite: {fileID: 21300000, guid: f3428143b804bd047ab4ee904063deb0, type: 3}
   backgroundColor: {r: 1, g: 1, b: 1, a: 1}
   nameSize: 25
   sizeOfRestOfTheText: 20
-  font: {fileID: 0}
---- !u!114 &1441799360
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 1441799355}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 114c57e786d74f4439a135cb2b9adb15, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
-  icon: {fileID: 0}
-  colorOfIcon: {r: 1, g: 1, b: 1, a: 1}
-  colorOfTheText: {r: 1, g: 1, b: 1, a: 1}
-  text: Test
-  fontSize: 20
   font: {fileID: 0}
 --- !u!1 &1536250355
 GameObject:
@@ -2227,7 +2212,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   materialType: {fileID: 11400000, guid: fe866cd9ae5c13b4f8fb41dd2c536641, type: 2}
-  backgroundSprite: {fileID: 4240188513560124558, guid: 19b7fee3f5ffe4e469978472ea661cdf, type: 3}
+  backgroundSprite: {fileID: 21300000, guid: f3428143b804bd047ab4ee904063deb0, type: 3}
   backgroundColor: {r: 1, g: 1, b: 1, a: 1}
   nameSize: 25
   sizeOfRestOfTheText: 20
